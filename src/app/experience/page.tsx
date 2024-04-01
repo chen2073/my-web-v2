@@ -8,17 +8,17 @@ export default function Experience() {
           <div className="mx-80">
             <div className="mb-10">
               <h2 className="text-2xl font-bold leading-none tracking-tight text-gray-900">Tesla</h2>
-              <p>I worked at Tesla for about 1 year</p>
+              <p>I worked at Tesla as a software engineer specialized in building internal tools using modern tech stack</p>
             </div>
             
             <div className="mb-10">
               <h2 className="text-2xl font-bold leading-none tracking-tight text-gray-900">Foxconn</h2>
-              <p>I worked at Foxconn for about 1 year</p>
+              <p>I worked at Foxconn as a software engineer specialized in building commercial tools using modern tech stack</p>
             </div>
 
             <div className="mb-10">
               <h2 className="text-2xl font-bold leading-none tracking-tight text-gray-900">Purdue VACCINE</h2>
-              <p>I worked at Purdue VACCINE lab as a research assistant/software developer for about 1.5 years</p>
+              <p>I worked at Purdue VACCINE lab as a research assistant/developer specialized in prototyping interactive data visual analytic tools</p>
             </div>
           </div>
         </div>
@@ -47,11 +47,7 @@ export default function Experience() {
           </div>
           <div className="mx-80">
             <div className="mb-10">
-              <ul>
-                <li>AWS</li>
-                <li>Python, GO</li>
-                <li>Milk</li>
-              </ul>
+              Programming
             </div>
           </div>
         </div>
