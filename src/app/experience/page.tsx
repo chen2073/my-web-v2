@@ -69,13 +69,16 @@ export default function Experience() {
                 <h3 className="font-bold">Backend</h3>
                 <li>Python</li>
                 <li>Go</li>
+                <li>Node</li>
               </ul>
               
               <ul className="m-4 list-disc">
                 <h3 className="font-bold">Frontend</h3>
                 <li>JS/TS</li>
-                <li>React</li>
-                <li>Vue</li>
+                <li>React/Next</li>
+                <li>Vue/Nuxt</li>
+                <li>Vite</li>
+                <li>Tailwind</li>
               </ul>
 
               <ul className="m-4 list-disc">
