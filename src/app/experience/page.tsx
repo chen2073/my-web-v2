@@ -52,7 +52,7 @@ export default function Experience() {
           </div>
           <div className="mx-80">
             <div className="mb-10">
-              Programming
+              AWS, Kubernetes, Docker, Jenkins, Github Action, Python, Go, C, OCaml
             </div>
           </div>
         </div>

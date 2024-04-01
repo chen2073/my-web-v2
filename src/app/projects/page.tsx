@@ -54,6 +54,7 @@ export default function Projects() {
               width={500}
               height={500}
               loading="lazy"
+              unoptimized
             />
         </div>
       </div>
