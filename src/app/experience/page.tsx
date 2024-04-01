@@ -9,19 +9,19 @@ export default function Experience() {
             <div className="mb-10">
               <h2 className="text-2xl font-bold leading-none tracking-tight text-gray-900">Tesla</h2>
               <h3 className="my-2 leading-none tracking-tight text-gray-900">2023 - 2024</h3>
-              <p>I worked at Tesla as a software engineer specialized in building internal tools using modern tech stack</p>
+              <p>I worked at Tesla as a backend engineer in building internal software to facilitate manufacturing quality</p>
             </div>
             
             <div className="mb-10">
               <h2 className="text-2xl font-bold leading-none tracking-tight text-gray-900">Foxconn</h2>
               <h3 className="my-2 leading-none tracking-tight text-gray-900">2020 - 2023</h3>
-              <p>I worked at Foxconn as a software engineer specialized in building commercial tools using modern tech stack</p>
+              <p>I worked at Foxconn as a full stack engineer in building commercial manufacturing quality software</p>
             </div>
 
             <div className="mb-10">
               <h2 className="text-2xl font-bold leading-none tracking-tight text-gray-900">Purdue VACCINE</h2>
               <h3 className="my-2 leading-none tracking-tight text-gray-900">2019 - 2020</h3>
-              <p>I worked at Purdue VACCINE lab as a research assistant/developer specialized in prototyping interactive data visual analytic tools</p>
+              <p>I worked at Purdue VACCINE lab as a research assistant in prototyping interactive data visual analytic tools</p>
             </div>
           </div>
         </div>
@@ -51,8 +51,39 @@ export default function Experience() {
             <h1 className="text-4xl font-bold leading-none tracking-tight text-gray-900">Skills</h1>
           </div>
           <div className="mx-80">
-            <div className="mb-10">
-              AWS, Kubernetes, Docker, Jenkins, Github Action, Python, Go, C, OCaml
+            <div className="mb-10 flex">
+              <ul className="m-4 list-disc">
+                <h3 className="font-bold">Deployment</h3>
+                <li>AWS</li>
+                <li>Kubernetes</li>
+                <li>Docker</li>
+              </ul>
+              
+              <ul className="m-4 list-disc">
+                <h3 className="font-bold">CICD</h3>
+                <li>Jenkins</li>
+                <li>Github Action</li>
+              </ul>
+              
+              <ul className="m-4 list-disc">
+                <h3 className="font-bold">Backend</h3>
+                <li>Python</li>
+                <li>Go</li>
+              </ul>
+              
+              <ul className="m-4 list-disc">
+                <h3 className="font-bold">Frontend</h3>
+                <li>JS/TS</li>
+                <li>React</li>
+                <li>Vue</li>
+              </ul>
+
+              <ul className="m-4 list-disc">
+                <h3 className="font-bold">Tools</h3>
+                <li>Bash</li>
+                <li>C</li>
+                <li>OCaml</li>
+              </ul>
             </div>
           </div>
         </div>
