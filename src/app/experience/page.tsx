@@ -1,11 +1,11 @@
 export default function Experience() {
     return (
       <>
-        <div className="py-10 flex justify-between">
-          <div className="mx-80">
+        <div className="py-10 flex justify-start">
+          <div className="w-1/3 ml-80">
             <h1 className="text-4xl font-bold leading-none tracking-tight text-gray-900">Work Experience</h1>
           </div>
-          <div className="mx-80">
+          <div className="w-1/3 ml-20">
             <div className="mb-10">
               <h2 className="text-2xl font-bold leading-none tracking-tight text-gray-900">Tesla</h2>
               <h3 className="my-2 leading-none tracking-tight text-gray-900">2023 - 2024</h3>
@@ -29,12 +29,12 @@ export default function Experience() {
         {/* dividing line */}
         <div className="mx-20 flex-grow border-t border-gray-400"></div>
         
-        <div className="py-10 flex justify-between">
-          <div className="mx-80">
+        <div className="py-10 flex justify-start">
+          <div className="w-1/3 ml-80">
             <h1 className="text-4xl font-bold leading-none tracking-tight text-gray-900">Education</h1>
           </div>
 
-          <div className="mx-80">
+          <div className="w-1/3 ml-20">
             <div className="mb-10">
               <h2 className="text-2xl font-bold leading-none tracking-tight text-gray-900">Purdue University</h2>
               <h3 className="my-2 leading-none tracking-tight text-gray-900">2015 - 2019</h3>
@@ -46,11 +46,11 @@ export default function Experience() {
         {/* dividing line */}
         <div className="mx-20 flex-grow border-t border-gray-400"></div>
 
-        <div className="py-10 flex justify-between">
-          <div className="mx-80">
+        <div className="py-10 flex justify-start">
+          <div className="w-1/3 ml-80">
             <h1 className="text-4xl font-bold leading-none tracking-tight text-gray-900">Skills</h1>
           </div>
-          <div className="mx-80">
+          <div className="w-1/3 ml-20">
             <div className="mb-10 flex">
               <ul className="m-4 list-disc">
                 <h3 className="font-bold">Deployment</h3>
