@@ -14,8 +14,7 @@ type ResObj = {
     Data: Post[]
 }
 
-// const url = "https://backend.chen2073.click:8000"
-const url = "http://localhost:8000"
+const url = process.env.NEXT_PUBLIC_URL
 
 const formatDt = (dt: Date): string => {
   const year = dt.getFullYear();
