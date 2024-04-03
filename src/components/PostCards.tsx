@@ -14,7 +14,8 @@ type ResObj = {
     Data: Post[]
 }
 
-const url = "https://backend.chen2073.click:8000"
+// const url = "https://backend.chen2073.click:8000"
+const url = "http://localhost:8000"
 
 const formatDt = (dt: Date): string => {
   const year = dt.getFullYear();
@@ -23,7 +24,7 @@ const formatDt = (dt: Date): string => {
   const hours = dt.getHours();
   const minutes = dt.getMinutes();
   
-  const formattedDateTime = `${year} ${month < 10 ? '0' + month : month} ${date < 10 ? '0' + date : date} ${hours < 10 ? '0' + hours : hours}:${minutes < 10 ? '0' + minutes : minutes}`;
+  const formattedDateTime = `${year}/${month < 10 ? '0' + month : month}/${date < 10 ? '0' + date : date} ${hours < 10 ? '0' + hours : hours}:${minutes < 10 ? '0' + minutes : minutes}`;
   return formattedDateTime
 }
 
