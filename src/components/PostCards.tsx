@@ -66,8 +66,8 @@ const PostCards = () => {
         setPosts([])
     })
 
-  const handleModalSubmit = (postContent: string) => {
-    submitPost(postContent) 
+  const handleModalSubmit = async (postContent: string) => {
+    await submitPost(postContent) 
     closeModal()
     fetchPosts()
   }
