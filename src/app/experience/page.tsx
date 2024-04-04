@@ -66,6 +66,13 @@ export default function Experience() {
               </ul>
               
               <ul className="m-4 list-disc">
+                <h3 className="font-bold">Data</h3>
+                <li>SQL</li>
+                <li>MongoDB</li>
+                <li>Airflow</li>
+              </ul>
+
+              <ul className="m-4 list-disc">
                 <h3 className="font-bold">Backend</h3>
                 <li>Python</li>
                 <li>Go</li>
