@@ -69,6 +69,7 @@ export default function Experience() {
                 <h3 className="font-bold">Data</h3>
                 <li>SQL</li>
                 <li>MongoDB</li>
+                <li>Redis</li>
                 <li>Airflow</li>
               </ul>
 
